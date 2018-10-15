@@ -6,6 +6,7 @@
 
   Assert.prototype.isArray = function(ary) {
     if (typeof ary !== typeof []) {
+      // [][0] == undefined && Array.isArray([])
       this.failingTests += 1;
       throw new Error(
         `Did not return notes array. Expected: [] but received: ${ary}`
