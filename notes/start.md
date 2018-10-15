@@ -1,0 +1,11 @@
+## eNotes Application
+- Single Page Application
+- No frameworks; build-your-own testing framework
+  - Testing Framework:
+    - Not just assertions
+    - It's a framework & a runner (produces a report)
+    - Have to understand callbacks (async/await)
+    - building mocks/stubs
+- ES6 modules are different; how to use modules in JS
+  - Use in our code
+- Using transpilers like babel
