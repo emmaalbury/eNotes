@@ -1,12 +1,7 @@
 (function(exports) {
   function testCheckIfArray() {
     let testNote = new Note();
-
-    if (!isArray(testNote.returnNotes())) {
-      throw new Error("Did not return notes array");
-    } else {
-      console.log("%c Pass the test!!!!!!!!!!!!!!!!! <3", "color:green");
-    }
+    isArray(testNote.returnNotes());
   }
   testCheckIfArray();
 })(this);

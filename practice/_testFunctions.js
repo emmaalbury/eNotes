@@ -1,9 +1,12 @@
 (function(exports) {
   function isArray(ary) {
-    if (typeof ary === typeof []) {
-      return true;
+    if (typeof ary !== typeof []) {
+      throw new Error(
+        `Did not return notes array. Expected: [] but received: ${ary}`
+      );
+    } else {
+      console.log("%c Pass the test!!!!!!!!!!!!!!!!! <3", "color:green");
     }
-    return false;
   }
   exports.isArray = isArray;
 })(this);
