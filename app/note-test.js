@@ -20,10 +20,12 @@
     Test.toEqual("worry about feature tests");
   }
 
+
+
   testFindNote();
   testCheckIfArray();
   testAddNote();
 })(this);
 
-/* if(testNote.returnNotes === []) <- this fails because 
+/* if(testNote.returnNotes === []) <- this fails because
 it's actually an object rather than array */
